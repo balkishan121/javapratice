@@ -19,5 +19,7 @@ public class maxofnumvararg {
         Scanner sc=new Scanner(System.in);
         //find maximum of number using variable arguments
         System.out.println("Maximum of the number is:"+max(10,20,30,40,50,60,70,80,90));
+        System.out.println("Maximum of the number is:"+max(10,20,30,40,50,60,70));
+        System.out.println("Maximum of the number is:"+max(10,20,30,40,50));
     }
 }
